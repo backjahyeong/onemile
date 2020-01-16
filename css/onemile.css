@@ -49,7 +49,7 @@ a,a:link {
     float:left;
 }
 #gnb li {
-    width:25%; /* 1/4 크기 */
+    width:25%;
     float:left;
 }
 #gnb li a {
