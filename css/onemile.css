@@ -25,7 +25,7 @@ a,a:link {
     content:'';
     display:block;
     clear:both;
-    position:fixed;
+    position:absolute; 
     top:71px;
     left:0;
     width:100%;
@@ -75,7 +75,7 @@ a,a:link {
 #icon li:hover {
     opacity:1;
 }
-#icon li:nth-child(2) {
+#icon li:nth-child(2) {  /* 7/2 = 3.5px <---> 나누어지지않는 단위 */
     margin: 0 3px 0 4px;;
 }
 #visual {
@@ -93,4 +93,19 @@ a,a:link {
 #visual img:nth-child(2){
     position:absolute;
     right:0;
+}
+
+#special {
+    width: 1000px;
+    margin: 0 auto;
+}
+#special h2 {
+    font-size: 20px;
+    color: pink;
+}
+#special h2 strong {
+    color: deeppink;
+}
+#special ul li {
+    
 }
